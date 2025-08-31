@@ -97,7 +97,7 @@
   </div>
 </section>
 
->
+
 
   <!-- Portfolio -->
   <section id="portfolio" class="py-20 text-center fade-in">
@@ -117,7 +117,7 @@
     <h3 class="text-4xl font-bold mb-6">Contact Me</h3>
     <p class="text-gray-300">Email: <a href="mailto:jeffvision.visuals" class="text-green-300 hover:underline">jeffvision.visuals</a></p>
   </section>
-<p class="logo of instagram > ig logo:<a href="jeffv_ision"class="text-green-300 hover:underline">jeffv_ision</a></p> </section>
+<p class="logo of instagram > ig logo:<a href=INSTAGRAM:"jeffv_ision"class="text-green-300 hover:underline">jeffv_ision</a></p> </section>
   
   <script>
     // Scroll animation
@@ -131,9 +131,34 @@
       });
     }, appearOptions);
     faders.forEach(fader => { appearOnScroll.observe(fader); });
+ .<hire-btn> {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: linear-gradient(135deg, #22c55e, #4ade80);
+      color: #000;
+      font-weight: bold;
+      padding: 14px 28px;
+      border-radius: 9999px;
+      box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+      animation: float 3s ease-in-out infinite;
+      z-index: 50;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hire-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px rgba(34, 197, 94, 0.8);
+    }
 
-    // Particles Background
-    const canvas = document.getElementById('particles');
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+    // SHINY STARS Background
+    const canvas = document.getElementById('SHINY STARS');
     const ctx = canvas.getContext('2d');
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -181,6 +206,7 @@
   </script>
 </body>
 </html>
+
 
 
 
